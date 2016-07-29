@@ -1,0 +1,26 @@
+  GNU nano 2.2.6             New Buffer                        Modified  
+
+echo "Enter year:"
+read y
+
+year=$y
+y=$(($y % 4 ))
+if [ $y -eq 0 ]
+then
+echo "$year is leap year!"
+else
+echo "$year is not a leap year!"
+fi
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help ^O WriteOut ^R Read File^Y Prev Page^K Cut Text ^C Cur Pos
+^X Exit     ^J Justify  ^W Where Is ^V Next Page^U UnCut Tex^T To Spell
